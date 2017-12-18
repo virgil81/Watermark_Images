@@ -7,8 +7,13 @@ class Watermark_Manager
 {
 public:
 	Watermark_Manager();
+	Watermark_Manager(std::string path,std::string new_file);
+	void Watermark_start();
+	void Watermark_decrypt();
 	~Watermark_Manager();
 private:
 	cv::Mat _image;
+	cv::Mat _hideimage;
+	cv::Mat _result;
 };
 
