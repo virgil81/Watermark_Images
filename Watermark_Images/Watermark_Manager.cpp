@@ -47,8 +47,8 @@ void Watermark_Manager::Watermark_start()
 		}
 	}
 
-	cv::namedWindow("result1", 0);
-	cv::imshow("result1", _result);
+	cv::namedWindow("result", 0);
+	cv::imshow("result", _result);
 	cv::waitKey();
 }
 

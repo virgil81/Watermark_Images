@@ -24,9 +24,15 @@
     <ClCompile Include="Watermark_Manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Watermark_Mask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Watermark_Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Watermark_Mask.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

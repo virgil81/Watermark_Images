@@ -115,9 +115,11 @@
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Watermark_Manager.cpp" />
+    <ClCompile Include="Watermark_Mask.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Watermark_Manager.h" />
+    <ClInclude Include="Watermark_Mask.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
