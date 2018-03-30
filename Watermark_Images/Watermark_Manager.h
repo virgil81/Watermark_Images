@@ -7,7 +7,7 @@ class Watermark_Manager
 {
 public:
 	Watermark_Manager();
-	Watermark_Manager(std::string path, std::string new_file, int nobits=6);
+	Watermark_Manager(std::string path, std::string new_file, int nobits = 6);
 	void Watermark_start();
 	void Watermark_decrypt();
 	~Watermark_Manager();
