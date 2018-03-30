@@ -6,7 +6,7 @@ Watermark_Manager::Watermark_Manager()
 {
 }
 
-Watermark_Manager::Watermark_Manager(std::string path, std::string new_file, int nobits = 6)
+Watermark_Manager::Watermark_Manager(std::string path, std::string new_file, int nobits)
 {
 	_image = cv::imread(path);
 	_hideimage = cv::imread(new_file);
